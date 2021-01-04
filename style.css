@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&display=swap');
+
+*{
+Padding:0px;
+margin:0px;
+box-sizing: border-box;	
+}
+body{
+	background-image: Url(./image/background6.jpg);
+	background-size:cover;
+	background-position: center;
+	height:100vh;
+	background-repeat:no-repeat;
+	
+	font-family:sans-serif;
+}
+.MenuBar{
+	background:#098409fa;
+	
+	text-align:center;
+	
+}
+.MenuBar ul{
+	
+display:inline-flex;
+list-style:none;
+color:white;
+
+}
+.MenuBar ul li{
+	
+	width:135px;
+	padding:10px;
+	margin:15px;
+	text-transform:uppercase;
+	
+	
+}
+	 
+.MenuBar ul li a{
+	text-decoration:none;
+	color:white;
+	
+}	
+
+.MenuBar ul li:hover{
+	background:#38bb0e94;
+	border-radius:5px;
+	color:white;
+	
+}
+
+.active{
+	background:#38bb0e94;
+	border-radius:5px;
+	
+	
+}
+.MenuBar li i{
+	margin-right: 8px;
+}
+
+.sub-menu-1{
+	
+	display:none;
+	
+}
+
+.MenuBar ul li:hover .sub-menu-1{
+	
+	display:block;
+	position:absolute;
+	background:#098409fa;
+	margin-top:15px;
+	margin-left:15px;
+	text-transform:uppercase;
+	font-size:15px;
+	
+	
+	
+}
+
+
+.MenuBar ul li:hover .sub-menu-1 ul{
+	display:block;
+	margin:10px;
+	
+}
+.MenuBar ul li:hover .sub-menu-1 ul li{
+	
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #999;
+	
+	background:transparent;
+	border-radius:o;
+	text-align: left;
+	
+}
+.MenuBar ul li:hover .sub-menu-1 ul li a:hover{
+	color:#060606eb;
+	
+}
+
+
+
+.MenuBar ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom:none;
+}
+
+
+.sub-menu-2 {
+    display: none;
+}
+
+.sub-menu-2 {}
+
+.MenuBar ul li:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    background:#098409fa;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.MenuBar ul li:hover .sub-menu-2 ul{
+	display:block;
+	margin:10px;
+
+}
+.MenuBar ul li:hover .sub-menu-2 ul li{
+	
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #999;
+	background:transparent;
+	border-radius:o;
+	text-align: left;
+	
+	
+}
+.MenuBar ul li:hover .sub-menu-2 ul li a:hover{
+	
+	color:#060606eb;
+}
+
+.MenuBar ul li:hover .sub-menu-2 ul li:last-child{
+	border-bottom:none;
+}
+.mainaTop {
+    margin: auto;
+    margin-top: 139px;
+    width: 500px;
+    margin-left: 1127px;
+}
+
+.mainaTop h1 {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    color: #25cc25;
+    font-size: 61px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.mainaTop p {
+    margin-bottom: 24px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: auto;
+    text-transform: capitalize;
+}
+
+.btmManu button {
+    background: #ff5200;
+    color: white;
+    padding: 15px;
+    width: 191px;
+    font-size: 23px;
+    border-color: #ff5200;
+    border: none;
+    border-radius: 5px;
+    font-family: owsald;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.btmManu button:hover{
+	
+	background:black;
+	color:white;
+}
+
+h2 {}
+
+.mainaTop h2 {
+    margin-bottom: 43px;
+    font-size: 41px;
+    font-family: owsald;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #18d418;
+}
+
+.mainaTop h2:after {
+    content: "";
+    position: absolute;
+    background: #ff5200;
+    width: 188px;
+    border-bottom: 3px solid #31bd2f;
+    display: block;
+}
+
+.imgLogo{
+width:300px;	
+	
+	
+}
+.imgLogo img{width:100%;border-radius: 100%;}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
